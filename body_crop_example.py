@@ -56,9 +56,9 @@ def crop_polygon_area(image_path, coordinates):
 
 
 if __name__ == "__main__":
-    images_dir = "/home/ralcaraz/Documentos/git-repos/lizard-body-crop/datasets/lizard-recognition-2/train/images"
-    labels_dir = "/home/ralcaraz/Documentos/git-repos/lizard-body-crop/datasets/lizard-recognition-2/train/labels"
-    output_dir = "/home/ralcaraz/Documentos/git-repos/lizard-body-crop/cropped-datasets/cropped_images"
+    images_dir = "/home/ralcaraz/Documentos/git-repos/roboflow-crop/datasets/lizard-recognition-2/train/images"
+    labels_dir = "/home/ralcaraz/Documentos/git-repos/roboflow-crop/datasets/lizard-recognition-2/train/labels"
+    output_dir = "/home/ralcaraz/Documentos/git-repos/roboflow-crop/cropped-datasets/cropped_images"
 
     os.makedirs("datasets", exist_ok=True)
     # %cd datasets in python:
